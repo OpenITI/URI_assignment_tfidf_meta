@@ -34,8 +34,8 @@ with a URI that is already in the corpus, using the metadata.
 * Choose a URI of a book you're interested in from the "URIs_TFIDF" tab in 
   [this spreadsheet](https://docs.google.com/spreadsheets/d/1KamnLCDhqJijznhvgZ3avi1YZb9fJXVO4l-DF2JzUHk/edit?usp=sharing)
 * Add your initials to the "Kitabi" column to show you are working on it
-* Copy the link to the tsv file
-* run the `identify.py` script and provide the link to the tsv file; the script will download the tsv file into the input_data folder in the 2022_1_URI_assignment repo, if it is not there already.
+* Copy the tsv file link from the "Link" column
+* Run the `identify.py` script and provide the link to the tsv file; the script will download the tsv file into the input_data folder in the 2022_1_URI_assignment repo, if it is not there already.
 * After going through 20 rows, the script will urge you to upload your identifications to GitHub; simply copy and paste the code the script will provide you into Git Bash.  
 * Add the row numbers of the rows you have worked on (e.g.,"1-34") in the "Identified rows" column 
   in the "URIs_TFIDF" tab in [this spreadsheet](https://docs.google.com/spreadsheets/d/1KamnLCDhqJijznhvgZ3avi1YZb9fJXVO4l-DF2JzUHk/edit?usp=sharing)
