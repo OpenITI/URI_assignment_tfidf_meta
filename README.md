@@ -23,7 +23,7 @@ Each tsv file contains the following columns:
 
 ## How to use these files?
 
-Use the identification script https://github.com/OpenITI/2022_1_URI_assignment/identify.py
+Use the identification script [https://github.com/OpenITI/2022_1_URI_assignment/identify.py](https://github.com/OpenITI/2022_1_URI_assignment)
 
 This script will automatically fill in URIs that have been assigned before.
 
