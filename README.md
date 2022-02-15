@@ -1,6 +1,6 @@
 # Data for URI assignment
 
-(see [github.com/OpenITI/2022_1_URI_session](github.com/OpenITI/2022_1_URI_session))
+(see [github.com/OpenITI/2022_1_URI_assignment](https://github.com/OpenITI/2022_1_URI_assignment))
 
 The data is organized by book URI. For each book URI, there is a tsv file 
 that contains metadata for all files from new collections that have a tf-idf score of
@@ -23,19 +23,19 @@ Each tsv file contains the following columns:
 
 ## How to use these files?
 
-Use the identification script github.com/OpenITI/2022_1_URI_session/identify.py
+Use the identification script https://github.com/OpenITI/2022_1_URI_assignment/identify.py
 
 This script will automatically fill in URIs that have been assigned before.
 
 For texts that have not been identified before, it will try to identify the book
 with a URI that is already in the corpus, using the metadata.
 
-* use `git pull` to update your local clone of github.com/OpenITI/2022_1_URI_session with new URIs identified by other users
+* use `git pull` to update your local clone of https://github.com/OpenITI/2022_1_URI_assignment with new URIs identified by other users
 * Choose a URI of a book you're interested in from the "URIs_TFIDF" tab in 
   [this spreadsheet](https://docs.google.com/spreadsheets/d/1KamnLCDhqJijznhvgZ3avi1YZb9fJXVO4l-DF2JzUHk/edit?usp=sharing)
 * Add your initials to the "Kitabi" column to show you are working on it
 * Copy the link to the tsv file
-* run the `identify.py` script and provide the link to the tsv file; the script will download the tsv file into the input_data folder in the 2022_1_URI_session repo, if it is not there already.
+* run the `identify.py` script and provide the link to the tsv file; the script will download the tsv file into the input_data folder in the 2022_1_URI_assignment repo, if it is not there already.
 * After going through 20 rows, the script will urge you to upload your identifications to GitHub; simply copy and paste the code the script will provide you into Git Bash.  
 * Add the row numbers of the rows you have worked on (e.g.,"1-34") in the "Identified rows" column 
   in the "URIs_TFIDF" tab in [this spreadsheet](https://docs.google.com/spreadsheets/d/1KamnLCDhqJijznhvgZ3avi1YZb9fJXVO4l-DF2JzUHk/edit?usp=sharing)
